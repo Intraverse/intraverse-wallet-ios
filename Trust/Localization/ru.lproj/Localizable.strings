@@ -3,8 +3,7 @@
 "app.device.jailbreak.title" = "БЕЗОПАСНОСТЬ УСТРОЙСТВА НАРУШЕНА";
 "Cancel" = "Отмена";
 "configureTransaction.error.gasFeeTooHigh" = "Плата за газ слишком высока. Макс доступный: %@";
-"configureTransaction.error.gasLimitTooHigh" = "Предел газа слишком высок. \
-Макс. Доступный: %d";
+"configureTransaction.error.gasLimitTooHigh" = "Предел газа слишком высок. Макс. Доступный: %d";
 "configureTransaction.gasLimit.label.description" = "Ограничение на газ предотвращает использование умных контрактов для всех ваших %@ . Мы попытаемся автоматически вычислить газовый предел для вас, но для некоторых умных контрактов может потребоваться специальный лимит газа.";
 "configureTransaction.gasLimit.label.title" = "Лимит Газа";
 "configureTransaction.gasPrice.label.description" = "Чем выше цена на газ, тем больше будет ваша комиссия за транзакцию, но тем быстрее ваша транзакция будет обработана сетью %@.";
@@ -309,4 +308,4 @@
 "Month" = "Месяц";
 "Year" = "Год";
 "AllTime" = "Все";
-"Confirm signing this message:" = "Confirm signing this message:";
+"provenance.tabbar.item.title" = "Provenance";

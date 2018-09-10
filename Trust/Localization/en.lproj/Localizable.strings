@@ -3,7 +3,7 @@
 "app.device.jailbreak.title" = "DEVICE SECURITY COMPROMISED";
 "Cancel" = "Cancel";
 "configureTransaction.error.gasFeeTooHigh" = "Gas Fee too high. Max available: %@";
-"configureTransaction.error.gasLimitTooHigh" = "Gas Limit too high. Max available: %li";
+"configureTransaction.error.gasLimitTooHigh" = "Gas Limit too high. Max available: %d";
 "configureTransaction.gasLimit.label.description" = "The gas limit prevents smart contracts from consuming all your %@. We will try to calculate the gas limit automatically for you, but some smart contracts may require a custom gas limit.";
 "configureTransaction.gasLimit.label.title" = "Gas Limit";
 "configureTransaction.gasPrice.label.description" = "With a higher gas price, your transaction fee will be more expensive, but the %@ network will process your transaction faster.";
@@ -308,5 +308,4 @@
 "Month" = "Month";
 "Year" = "Year";
 "AllTime" = "All Time";
-"Confirm signing this message:" = "Confirm signing this message:";
 "provenance.tabbar.item.title" = "Provenance";

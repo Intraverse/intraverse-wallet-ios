@@ -3,7 +3,7 @@
 "app.device.jailbreak.title" = "デバイスのセキュリティが損なわれます";
 "Cancel" = "キャンセル";
 "configureTransaction.error.gasFeeTooHigh" = "ガス手数料が高すぎます。利用可能な最大値: %@";
-"configureTransaction.error.gasLimitTooHigh" = "ガスリミットが高すぎます。利用可能な最大値： %li";
+"configureTransaction.error.gasLimitTooHigh" = "ガスリミットが高すぎます。利用可能な最大値： %d";
 "configureTransaction.gasLimit.label.description" = "ガスリミットは、スマートコントラクトががあなたの全ての%@ を消費するのを防いでくれます。ガスリミットはがTrustが自動で計算しますが、一部のスマートコントラクトはガスリミットを変更する必要があります。";
 "configureTransaction.gasLimit.label.title" = "ガスリミット";
 "configureTransaction.gasPrice.label.description" = "より高いガス価格で、あなたの取引手数料はより高価になりますが、 %@ネットワークはあなたのトランザクションをより速く処理します。";
@@ -308,4 +308,4 @@
 "Month" = "Month";
 "Year" = "Year";
 "AllTime" = "All Time";
-"Confirm signing this message:" = "Confirm signing this message:";
+"provenance.tabbar.item.title" = "Provenance";

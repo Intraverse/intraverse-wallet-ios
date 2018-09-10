@@ -4,7 +4,7 @@
 "Cancel" = "إلغاء";
 "configureTransaction.error.gasFeeTooHigh" = "رسوم التحويل مرتفعة جدا. الحد الأقصى المتاح: %@";
 "configureTransaction.error.gasLimitTooHigh" = "حد التحويل مرتفع جدا. الحد الأقصى المتاح: %d";
-"configureTransaction.gasLimit.label.description" = "يمنع حد التحويل العقود الذكية من استهلاك [% s] . سوف نحاول  حساب حد التحويل تلقائياً، ولكن بعض العقود ذكية  قد تتطلب حد تحويل خاص.";
+"configureTransaction.gasLimit.label.description" = "يمنع حد التحويل العقود الذكية من استهلاك [@%] . سوف نحاول  حساب حد التحويل تلقائياً، ولكن بعض العقود ذكية  قد تتطلب حد تحويل خاص.";
 "configureTransaction.gasLimit.label.title" = "رسوم التحويل";
 "configureTransaction.gasPrice.label.description" = "كلما ارتفع رسم التحول زادة التكلفة ولكن يتم التحويل يشكل اكبر";
 "configureTransaction.gasPrice.label.title" = "سعر التحويل";
@@ -308,4 +308,4 @@
 "Month" = "Month";
 "Year" = "Year";
 "AllTime" = "All Time";
-"Confirm signing this message:" = "Confirm signing this message:";
+"provenance.tabbar.item.title" = "Provenance";

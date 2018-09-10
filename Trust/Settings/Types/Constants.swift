@@ -24,7 +24,7 @@ public struct Constants {
     public static let images = "https://trustwalletapp.com/images"
 
     public static let trustAPI = URL(string: "https://public.trustwalletapp.com")!
-    
+
     public static let provenanceBrowserURL = "http://blockchain.tranzworldbiz.com/asset3/"
 
 }
