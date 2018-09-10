@@ -157,7 +157,7 @@ final class BrowserViewController: UIViewController {
     }
 
     func goHome() {
-        guard let url = URL(string: Constants.dappsBrowserURL) else { return }
+        guard let url = URL(string: Constants.provenanceBrowserURL) else { return }
         var request = URLRequest(url: url)
         request.cachePolicy = .returnCacheDataElseLoad
         hideErrorView()
