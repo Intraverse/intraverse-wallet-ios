@@ -151,11 +151,20 @@ class InCoordinator: Coordinator {
         let tabBarController = TabBarController()
         tabBarController.tabBar.isTranslucent = false
 
-        let browserCoordinator = BrowserCoordinator(session: session, keystore: keystore, navigator: navigator, sharedRealm: sharedRealm)
-        browserCoordinator.delegate = self
-        browserCoordinator.start()
-        browserCoordinator.rootViewController.tabBarItem = viewModel.browserBarItem
-        addCoordinator(browserCoordinator)
+        let provenanceCoordinator = BrowserCoordinator(session: session, keystore: keystore, navigator: navigator, sharedRealm: sharedRealm)
+        provenanceCoordinator.delegate = self
+        provenanceCoordinator.start()
+        if let url = URL(string: Constants.provenanceBrowserURL) {
+            provenanceCoordinator.openURL(url)
+        }
+        provenanceCoordinator.rootViewController.tabBarItem = viewModel.provenanceBarItem
+        addCoordinator(provenanceCoordinator)
+
+//        let browserCoordinator = BrowserCoordinator(session: session, keystore: keystore, navigator: navigator, sharedRealm: sharedRealm)
+//        browserCoordinator.delegate = self
+//        browserCoordinator.start()
+//        browserCoordinator.rootViewController.tabBarItem = viewModel.browserBarItem
+//        addCoordinator(browserCoordinator)
 
         let walletCoordinator = TokensCoordinator(
             session: session,
@@ -181,7 +190,8 @@ class InCoordinator: Coordinator {
         addCoordinator(settingsCoordinator)
 
         tabBarController.viewControllers = [
-            browserCoordinator.navigationController.childNavigationController,
+            provenanceCoordinator.navigationController.childNavigationController,
+//            browserCoordinator.navigationController.childNavigationController,
             walletCoordinator.navigationController.childNavigationController,
             settingsCoordinator.navigationController.childNavigationController,
         ]

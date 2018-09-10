@@ -28,6 +28,14 @@ struct InCoordinatorViewModel {
         )
     }
 
+    var provenanceBarItem: UITabBarItem {
+        return UITabBarItem(
+            title: NSLocalizedString("provenance.tabbar.item.title", value: "Provenance", comment: ""),
+            image: R.image.dapps_icon(),
+            selectedImage: nil
+        )
+    }
+    
     var walletBarItem: UITabBarItem {
         return UITabBarItem(
             title: NSLocalizedString("wallet.navigation.title", value: "Wallet", comment: ""),
